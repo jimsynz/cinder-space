@@ -50,7 +50,7 @@ defmodule CinderSpace.MixProject do
       {:ex_doc, ">= 0.28.0", only: ~w[dev test]a, runtime: false},
       {:git_ops, "~> 2.5", only: ~w[dev test]a, runtime: false},
       {:mix_audit, "~> 2.1", only: ~w[dev test]a, runtime: false},
-      {:sobelow, "~> 0.11", only: ~w[dev test]a, runtime: false}
+      {:sobelow, "~> 0.12", only: ~w[dev test]a, runtime: false}
     ]
   end
 end
