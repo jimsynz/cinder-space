@@ -25,7 +25,7 @@ defmodule CinderSpace.MixProject do
       maintainers: ["James Harton <james@harton.nz>"],
       licenses: ["HL3-FULL"],
       links: %{
-        "Source" => "https://gitlab.com/jimsy/cinder_space",
+        "Source" => "https://cloud.harton.nz/james/cinder_space",
         "Site" => "https://cinder.space/"
       }
     ]
