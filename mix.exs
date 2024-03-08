@@ -16,6 +16,10 @@ defmodule CinderSpace.MixProject do
       dialyzer: [
         plt_add_apps: [:mix, :ex_unit],
         list_unused_filters: true
+      ],
+      docs: [
+        main: "readme",
+        extras: ["README.md", "CHANGELOG.md"]
       ]
     ]
   end
@@ -25,8 +29,11 @@ defmodule CinderSpace.MixProject do
       maintainers: ["James Harton <james@harton.nz>"],
       licenses: ["HL3-FULL"],
       links: %{
-        "Source" => "https://cloud.harton.nz/cinder/cinder_space",
-        "Site" => "https://cinder.space/"
+        "Source" => "https://harton.dev/cinder/cinder-space",
+        "Site" => "https://cinder.space/",
+        "GitHub" => "https://github.com/jimsynz/cinder-space",
+        "Changelog" => "https://docs.harton.nz/james/cinder-space/changelog.html",
+        "Sponsor" => "https://github.com/sponsors/jimsynz"
       }
     ]
   end

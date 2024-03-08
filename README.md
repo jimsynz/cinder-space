@@ -1,7 +1,16 @@
 # Cinder Space
 
+[![Build Status](https://drone.harton.dev/api/badges/cinder/cinder-space/status.svg?ref=refs/heads/main)](https://drone.harton.dev/cinder/cinder-space)
+[![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
+
 [Cinder Space](https://cinder.space) is the homepage and documentation site for
 the Cinder web application framework.
+
+## Github Mirror
+
+This repository is mirrored [on Github](https://github.com/jimsynz/cinder-space)
+from it's primary location [on my Forgejo instance](https://harton.dev/cinder/cinder-space).
+Feel free to raise issues and open PRs on Github.
 
 ## License
 
