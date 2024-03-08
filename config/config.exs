@@ -8,4 +8,8 @@ config :git_ops,
   version_tag_prefix: "v",
   manage_readme_version: "README.md"
 
-# import_config "#{config_env()}.exs"
+config :cinder_space,
+  cookie_signing_salt: System.fetch_env!("COOKIE_SIGNING_SALT"),
+  secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
+
+import_config "#{config_env()}.exs"

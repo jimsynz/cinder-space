@@ -49,6 +49,8 @@ defmodule CinderSpace.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:cinder, git: "https://harton.dev/cinder/cinder.git", tag: "v0.9.4"},
+
       # Test/CI related.
       {:credo, "~> 1.6", only: ~w[dev test]a, runtime: false},
       {:doctor, "~> 0.21", only: ~w[dev test]a, runtime: false},
