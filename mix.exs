@@ -51,7 +51,7 @@ defmodule CinderSpace.MixProject do
     [
       # Test/CI related.
       {:credo, "~> 1.6", only: ~w[dev test]a, runtime: false},
-      {:doctor, "~> 0.21", only: ~w[dev test]a, runtime: false},
+      {:doctor, "~> 0.22", only: ~w[dev test]a, runtime: false},
       {:dialyxir, "~> 1.2", only: ~w[dev test]a, runtime: false},
       {:ex_check, "~> 0.16", only: ~w[dev test]a, runtime: false},
       {:ex_doc, ">= 0.28.0", only: ~w[dev test]a, runtime: false},
